@@ -1,3 +1,4 @@
+/* ? task -1 start */
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -5,14 +6,18 @@
     list-style-type: none;
     text-decoration: none;
 }
-
+body{
+    display: flex;
+}
 .card {
+    display: inline-block;
     width: 250px;
     min-height: 300px;
     border: 2px solid;
     margin: 20px;
     border-radius: 30px;
 }
+
 .card .card-icon {
     margin: 20px auto;
     width: 80px;
@@ -29,35 +34,43 @@
 .card .form-area {
     margin: 20px;
 }
-
 .card .form-area form input {
     border-left: none;
     border-top: none;
     border-right: none;
+    background-color: #1576bb;
     margin: 10px;
     padding: 8px;
-    border-bottom: 2px solid #1576bb;
+    border-bottom: 2px solid #fff
 
 }
-
 .card .form-area form input::placeholder {
     font-size: 15px;
     margin-left: 10px;
-    color: gray;
+    color: white;
 }
-
 .card .form-area form input:focus-visible {
     outline: none;
 }
 .card .form-area form .btn{
     border: none;
     width: 100%;
-    background-color: #1576bb;
-    color: white;
-    padding: 6px;
+    background-color: #fff;
+    color: #1576bb;
+    padding: 8px;
     border-radius: 10px;
 }
 .card .form-area form  .forgot {
     margin-top: 10px;
     text-align: center;
+}
+/* ? task -1 end */
+
+/* ! Task -2 Start */
+
+.card h1{
+    text-align: center;
+}
+.card{
+    background-color:#1576bb ;
 }
